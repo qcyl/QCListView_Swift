@@ -22,7 +22,7 @@ pod "QCListView_Swift"
 
 ## Author
 
-qcyl, m17744407674@163.com
+qcyl, qichao@qczyl.club
 
 ## License
 
