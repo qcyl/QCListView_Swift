@@ -63,7 +63,6 @@ extension TableView: TableViewDelegate {
         guard let dataSource = tableView.dataSource as? TableViewDataSourceProtocol else {
             return TableViewBaseItem.CellInvalidHeight
         }
-
         let object = dataSource.tableView(tableView, objectForRowAtIndexPath: indexPath)
         if object.cellHeight == TableViewBaseItem.CellInvalidHeight {   //没有高度缓存
             guard let cls = NSClassFromString(object.itemIdentifier) else {
