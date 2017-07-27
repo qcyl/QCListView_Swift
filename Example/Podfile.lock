@@ -1,0 +1,16 @@
+PODS:
+  - QCListView_Swift (0.1.0)
+
+DEPENDENCIES:
+  - QCListView_Swift (from `../`)
+
+EXTERNAL SOURCES:
+  QCListView_Swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QCListView_Swift: 338db56266945a728d069b7a53e1a11d1a7d50d3
+
+PODFILE CHECKSUM: ab4ce305b7b71cfc555e400ca564dbae37a18dd2
+
+COCOAPODS: 1.2.0

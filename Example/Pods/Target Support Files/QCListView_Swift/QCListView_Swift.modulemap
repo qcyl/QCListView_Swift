@@ -1,0 +1,6 @@
+framework module QCListView_Swift {
+  umbrella header "QCListView_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

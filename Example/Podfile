@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QCListView_Swift_Example' do
+  pod 'QCListView_Swift', :path => '../'
+
+  target 'QCListView_Swift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
