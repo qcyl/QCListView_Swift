@@ -68,6 +68,7 @@ extension TableView: TableViewDelegate {
         if object.cellHeight == TableViewBaseItem.CellInvalidHeight {   //没有高度缓存
             guard let cls = NSClassFromString(object.itemIdentifier) else {
                 assert(false, "class not found,please check classname")
+                return TableViewBaseItem.CellInvalidHeight
             }
             let realClass = cls as! UITableViewCell.Type
             if let pro = realClass.init() as? TableViewCellDelegate {
